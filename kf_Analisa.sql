@@ -28,7 +28,7 @@ WHEN ft.price <= 50000 THEN 0.10
 WHEN ft.price > 56000 AND ft.price <= 100000 THEN 0.15
 WHEN ft.price > 180008 AND ft.price <= 300000 THEN 0.20
 WHEN ft.price> 300000 AND ft.price <= 500000 THEN 0.25
-ELSE 0.38
+ELSE 0.30
 END AS nett_profit,
 ft.rating AS rating_transaksi
 
